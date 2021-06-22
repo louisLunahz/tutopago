@@ -38,16 +38,7 @@
   <?php 
   
   include 'navBar.php';
-  $host="localhost";
-  $user="root";
-  $password="";
-  $database="tutopago";
-  $consulta="SELECT * FROM pasos where id_operacion=1";
-  $link=mysqli_connect($host,$user,$password);
-  $bandera=mysqli_select_db($link, $database);
-  if ($result = mysqli_query($link, $consulta)) {
-    $filas=mysqli_num_rows($result);
-  }
+  
 
   ?>
 
